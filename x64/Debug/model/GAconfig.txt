@@ -1,0 +1,6 @@
+tracker_flag=1
+max_miss=3
+use_ave=1
+ave_cnt=5
+min_face=100
+ave_type=1

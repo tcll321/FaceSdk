@@ -1,0 +1,42 @@
+[GLOBAL]
+camera_count=1
+config_mode = 1
+[ROOM]
+width=7000
+height=8000
+scale=0.1
+inv_ratio = 0 #0.02
+[CAMERA0]
+path = 0
+live=1
+position=2898,3121,2418
+center=930,1000,0
+direction=0
+angleX=2
+angleZ=5
+gravity=-0.0565726,-0.913951,0.401864
+zfile=D:\workspace\4_IMI_dev\Project\AutoShop\config\average_z_400.txt
+left=10
+right=10
+[CAMERA1]
+live=1
+path =1
+#path=E:\data2\a100_ped\birdview_forhard
+#path=E:\data2\a100_ped\birdview_forhard
+#path=E:\data2\a100_ped\birdview_forhard
+#path=E:\data2\a100_ped\birdview_forraoquan
+position=327,737,2398
+center=1790,1220,0
+direction=0
+angleX=-3.25
+angleZ=1
+gravity=-0.059638,-0.963841,0.259717
+#-0.0579196, -0.942608, 0.328839
+zfile=average_z_400.txt
+left=10
+right=10
+[BODY]
+body_height=1650
+min_height=1200
+[SHOW]
+split=1

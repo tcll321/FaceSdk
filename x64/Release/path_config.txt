@@ -1,0 +1,5 @@
+[PATH]
+depth_camera_tracker = config/depth_camera_tracker.txt
+tracker = config/tracker_config.txt
+room = config/room_config.txt
+shelf = config/shelf_config.txt

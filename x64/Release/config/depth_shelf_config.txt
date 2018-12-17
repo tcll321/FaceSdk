@@ -1,0 +1,23 @@
+[SHELF]
+width = 1200
+height=2000
+floors=4
+ground = 500
+inner_line=0
+outer_line=150
+min_area=400
+min_dist=100
+max_track=3
+#cubes=(1,2,3,4),(5,6,7,8)
+[CAMERA]
+#size=320,240
+size=640,480
+position=600,2000,100
+angle=0
+view=1200,2000
+scale=2
+invert=0
+offset=10,10
+
+
+

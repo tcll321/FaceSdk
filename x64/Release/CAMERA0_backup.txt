@@ -1,0 +1,16 @@
+[CAMERA0]
+camera_id=CAMERA0
+live=1
+skeleton=1
+png=0
+fps=20
+path=0
+zfile=../config/average_z_400.txt
+position=900,400,2000
+center=1900,800,0
+direction=0
+angleX=-9.5
+angleZ=9
+gravity=-0.12225,-0.876764,0.465124
+[SHOW]
+split=1

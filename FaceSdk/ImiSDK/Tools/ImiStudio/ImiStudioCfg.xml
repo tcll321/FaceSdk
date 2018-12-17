@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Page Name="View">
+    <Device Type="A100" Pid="257">
+        <Resolution Type="Color">
+            <ResList Select="0">640x480;1280x720;1920x1080</ResList>
+        </Resolution>
+        <Resolution Type="UVC">
+            <ResList Select="0" />
+        </Resolution>
+        <Resolution Type="Depth">
+            <ResList Select="0">640x480</ResList>
+        </Resolution>
+        <Resolution Type="IR">
+            <ResList Select="0">640x480</ResList>
+        </Resolution>
+    </Device>
+    <Device Type="A100M" Pid="2">
+        <Resolution Type="Color">
+            <ResList Select="0">640x480</ResList>
+        </Resolution>
+        <Resolution Type="UVC">
+            <ResList Select="0">640x480;1280x720;1920x1080</ResList>
+        </Resolution>
+        <Resolution Type="Depth">
+            <ResList Select="0">320x240;640x480</ResList>
+        </Resolution>
+        <Resolution Type="IR">
+            <ResList Select="0">640x480</ResList>
+        </Resolution>
+    </Device>
+    <Device Type="A100SP" Pid="4">
+        <Resolution Type="Color">
+            <ResList Select="0" />
+        </Resolution>
+        <Resolution Type="UVC">
+            <ResList Select="1">320x240;640x480;1280x720;1920x1080</ResList>
+        </Resolution>
+        <Resolution Type="Depth">
+            <ResList Select="0">320x240;640x480</ResList>
+        </Resolution>
+        <Resolution Type="IR">
+            <ResList Select="0">640x480</ResList>
+        </Resolution>
+    </Device>
+    <Device Type="A100S" Pid="5">
+        <Resolution Type="Color">
+            <ResList Select="0">640x480;1280x960</ResList>
+        </Resolution>
+        <Resolution Type="UVC">
+            <ResList Select="0" />
+        </Resolution>
+        <Resolution Type="Depth">
+            <ResList Select="0">320x240;640x480</ResList>
+        </Resolution>
+        <Resolution Type="IR">
+            <ResList Select="0">640x480</ResList>
+        </Resolution>
+    </Device>
+	<Device Type="A200" Pid="13696">
+        <Resolution Type="Color">
+            <ResList Select="0" />
+        </Resolution>
+        <Resolution Type="UVC">
+            <ResList Select="0">640x480;1280x720;1920x1080</ResList>
+        </Resolution>
+        <Resolution Type="Depth">
+            <ResList Select="2">320x200;640x400;640x480</ResList>
+        </Resolution>
+        <Resolution Type="IR">
+            <ResList Select="1">640x400;640x480</ResList>
+        </Resolution>
+    </Device>
+	<Device Type="A200" Pid="768">
+        <Resolution Type="Color">
+            <ResList Select="0" />
+        </Resolution>
+        <Resolution Type="UVC">
+            <ResList Select="0">640x480;1280x720;1920x1080</ResList>
+        </Resolution>
+        <Resolution Type="Depth">
+            <ResList Select="2">320x200;640x400;640x480</ResList>
+        </Resolution>
+        <Resolution Type="IR">
+            <ResList Select="1">640x400;640x480</ResList>
+        </Resolution>
+    </Device>
+	<Device Type="A200" Pid="769">
+        <Resolution Type="Color">
+            <ResList Select="0" />
+        </Resolution>
+        <Resolution Type="UVC">
+            <ResList Select="0">640x480;1280x720;1920x1080</ResList>
+        </Resolution>
+        <Resolution Type="Depth">
+            <ResList Select="2">320x200;640x400;640x480</ResList>
+        </Resolution>
+        <Resolution Type="IR">
+            <ResList Select="1">640x400;640x480</ResList>
+        </Resolution>
+    </Device>
+	<Device Type="A200" Pid="770">
+        <Resolution Type="Color">
+            <ResList Select="0" />
+        </Resolution>
+        <Resolution Type="UVC">
+            <ResList Select="0">640x480;1280x720;1920x1080</ResList>
+        </Resolution>
+        <Resolution Type="Depth">
+            <ResList Select="2">320x200;640x400;640x480</ResList>
+        </Resolution>
+        <Resolution Type="IR">
+            <ResList Select="1">640x400;640x480</ResList>
+        </Resolution>
+    </Device>
+    <View>
+        <DepthRenderMode>1</DepthRenderMode>
+        <StreamMirror>1</StreamMirror>
+    </View>
+	<Record>
+        <Compress>1</Compress>
+    </Record>
+    <SavePath>
+        <PhotoSavePath></PhotoSavePath>
+        <RecordSavePath></RecordSavePath>
+    </SavePath>
+    <NetWork>
+        <ServiceIP>127.0.0.1</ServiceIP>
+        <ListenPort>10001</ListenPort>
+    </NetWork>
+</Page>
+<Page Name="PlayBack">
+    <View>
+        <DepthRenderMode>1</DepthRenderMode>
+    </View>
+    <NetWork>
+        <ServiceIP>127.0.0.1</ServiceIP>
+        <ListenPort>10001</ListenPort>
+    </NetWork>
+</Page>

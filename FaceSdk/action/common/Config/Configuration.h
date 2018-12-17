@@ -1,0 +1,10 @@
+#pragma once
+#include "RoomConfig.h"
+#include "TrackerConfig.h"
+#include "ShelfConfig.h"
+#include "ColorCameraConfig.h"
+#include "DepthCameraConfig.h"
+#include "PathConfig.h"
+#include "ServerConfig.h"
+#include "ShelfGoodsListConfig.h"
+#include "HandTrackerConfig.h"

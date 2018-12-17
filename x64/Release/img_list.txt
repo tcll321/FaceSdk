@@ -1,0 +1,8 @@
+./test_img/1.jpg
+./test_img/14.jpg
+./test_img/16.jpg
+./test_img/42.jpg
+./test_img/105.jpg
+./test_img/114.jpg
+./test_img/1056.jpg
+./test_img/1070.jpg

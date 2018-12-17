@@ -1,0 +1,6 @@
+[YOLO]
+config = ./data/yolov3-tiny_obj.cfg
+weights = ./data/yolov3-tiny_obj.weights
+labels = ./data/obj.names
+class_thresh = 0.5
+nms_thresh = 0.4

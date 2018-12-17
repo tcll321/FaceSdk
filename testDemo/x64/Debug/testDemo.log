@@ -1,0 +1,24 @@
+﻿生成启动时间为 2018/12/15 17:11:24。
+     1>项目“D:\work\Face\FaceSdk\testDemo\testDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\FaceSdk /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\testDemo.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\FaceSdk /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\testDemo.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt testDemo.cpp testDemoDlg.cpp
+         testDemoDlg.cpp
+         testDemo.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\testDemo.res" testDemo.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\Face\FaceSdk\x64\Debug\testDemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\work\Face\FaceSdk\x64\Debug\ FaceSdk.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\work\Face\FaceSdk\x64\Debug\testDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\Face\FaceSdk\x64\Debug\testDemo.lib" /MACHINE:X64 x64\Debug\testDemo.res
+         x64\Debug\stdafx.obj
+         x64\Debug\testDemo.obj
+         x64\Debug\testDemoDlg.obj
+         testDemo.vcxproj -> D:\work\Face\FaceSdk\x64\Debug\testDemo.exe
+     1>已完成生成项目“D:\work\Face\FaceSdk\testDemo\testDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.20

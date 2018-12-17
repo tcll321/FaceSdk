@@ -1,0 +1,17 @@
+[CAMERA_LIST]
+names = R1 
+#, R2
+
+[CAMERA_R1]
+name = R1
+path = 0
+type = 0
+channel = 0
+size = 640,480
+
+[CAMERA_R2]
+name = R2
+path = 1
+type = 0
+channel = 1
+size = 640,480

@@ -1,0 +1,23 @@
+﻿生成启动时间为 2018/12/15 17:58:26。
+     1>项目“D:\work\Face\FaceSdk\FaceSdk\FaceSdk.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\Face\FaceSdk\x64\Debug\FaceSdk.dll" /INCREMENTAL /NOLOGO /LIBPATH:.\action\lib libFaceDetect.lib libGenderAge.lib ImiNect.lib ImiCamera.lib Camera.lib HumanTracker.lib opencv_calib3d340d.lib opencv_core340d.lib opencv_dnn340d.lib opencv_features2d340d.lib opencv_flann340d.lib opencv_highgui340d.lib opencv_imgcodecs340d.lib opencv_imgproc340d.lib opencv_ml340d.lib opencv_objdetect340d.lib opencv_photo340d.lib opencv_shape340d.lib opencv_stitching340d.lib opencv_superres340d.lib opencv_video340d.lib opencv_videoio340d.lib opencv_videostab340d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"FaceSdk.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\work\Face\FaceSdk\x64\Debug\FaceSdk.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\Face\FaceSdk\x64\Debug\FaceSdk.lib" /MACHINE:X64 /DLL x64\Debug\ActionTrajectory.obj
+         x64\Debug\DeviceObject.obj
+         x64\Debug\dllmain.obj
+         x64\Debug\FaceObject.obj
+         x64\Debug\FaceSdk.obj
+         x64\Debug\stdafx.obj
+         Camera.lib(SyncCameraManager.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+     1>Camera.lib(SyncCameraManager.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(ActionTrajectory.obj 中)
+     1>Camera.lib(SyncCameraManager.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(ActionTrajectory.obj 中)
+            正在创建库 D:\work\Face\FaceSdk\x64\Debug\FaceSdk.lib 和对象 D:\work\Face\FaceSdk\x64\Debug\FaceSdk.exp
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>Camera.lib(SyncCameraManager.obj) : error LNK2001: 无法解析的外部符号 "public: void __cdecl cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@2@@Z)
+     1>Camera.lib(SyncCameraManager.obj) : error LNK2001: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z)
+     1>D:\work\Face\FaceSdk\x64\Debug\FaceSdk.dll : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“D:\work\Face\FaceSdk\FaceSdk\FaceSdk.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.47

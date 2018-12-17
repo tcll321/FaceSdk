@@ -1,0 +1,18 @@
+[ROOM]
+room_size =2370,3150
+scale = 0.2
+[SHELF_LIST]
+names = W1,W2 
+//,N1
+[SHELF_W1]
+name = food
+pos = 0,2230,440,900
+direction = 1
+[SHELF_W2]
+name = drink
+pos = 0,1330,440,900
+direction = 1
+[SHELF_N1]
+name = etc
+pos = 2250,0,900,440
+direction = 2

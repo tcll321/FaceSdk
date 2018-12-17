@@ -1,0 +1,139 @@
+[CAMERA_LIST]
+names = 117, 118, 119, 120, 121, 122, 123, 124
+#W1TL, W2BR
+
+[CAMERA_117]
+name = 117
+path = rtsp://admin:1234@10.0.0.117:554/1/1
+size = 640,480
+pos = 500,3100,100
+direction = 0
+center_line_ratio = 0.5
+center_height_ratio = 0.25
+
+k1 = -0.3771
+k2 = 0.1447
+cx = 311.33
+cy = 238.76
+fx = 386.67
+fy = 518.68
+rod = 0.0100252,2.98283,-0.69765
+
+[CAMERA_118]
+name = 118
+path = rtsp://admin:1234@10.0.0.118:554/1/1
+size = 640,480
+pos = 500,2200,100
+direction = 0
+center_line_ratio = 0.5
+center_height_ratio = 0.25
+
+k1 = -0.3746
+k2 = 0.1407
+cx = 320.46
+cy = 249.19
+fx = 382.24
+fy = 513.29
+rod = 2.72207,-0.0795464,-0.139207
+
+[CAMERA_119]
+name = 119
+path = rtsp://admin:1234@10.0.0.119:554/1/1
+size = 640,480
+pos = 500,2000,1800
+direction = 0
+center_line_ratio = 0.5
+center_height_ratio = 0.25
+
+k1 = -0.358
+k2 = 0.0977
+cx = 320.26
+cy = 244.01
+fx = 403.6
+fy = 537.58
+rod = -0.38222,-0.260686,-0.491491
+
+[CAMERA_120]
+name = 120
+path = rtsp://admin:1234@10.0.0.120:554/1/1
+size = 640,480
+pos = 500,1380,100
+direction = 0
+center_line_ratio = 0.5
+center_height_ratio = 0.25
+
+k1 = -0.4223
+k2 = 0.2808
+cx = 341.89
+cy = 227.35
+fx = 385.79
+fy = 515.23
+rod = 2.85465,-0.179361,-0.107611
+
+
+[CAMERA_121]
+name = 121
+path = rtsp://admin:1234@10.0.0.121:554/1/1
+size = 640,480
+pos = 500,1380,1800
+direction = 0
+center_line_ratio = 0.5
+center_height_ratio = 0.25
+
+k1 = -0.3857
+k2 = 0.1054
+cx = 313.2
+cy = 253.5
+fx = 403.4
+fy = 537.5
+rod = -0.223033,-0.560837,-2.68978
+
+[CAMERA_122]
+name = 122
+path = rtsp://admin:1234@10.0.0.122:554/1/1
+size = 640,480
+pos = 500,3100,1800
+direction = 0
+center_line_ratio = 0.5
+center_height_ratio = 0.25
+
+k1 = -0.3687
+k2 = 0.132
+cx = 364.8
+cy = 253.8
+fx = 424.5
+fy = 567
+rod = -0.525876,-0.333264,0.0161055
+
+[CAMERA_123]
+name = 123
+path = rtsp://admin:1234@10.0.0.123:554/1/1
+size = 640,480
+pos = 500,2000,100
+direction = 0
+center_line_ratio = 0.5
+center_height_ratio = 0.25
+k1 = -0.3955
+k2 = 0.1759
+cx = 336.6
+cy = 245.8
+fx = 388.2
+fy = 519.2
+rod = -0.193788,-3.05025,0.617118
+
+[CAMERA_124]
+name = 124
+path = rtsp://admin:1234@10.0.0.124:554/1/1
+size = 640,480
+pos = 500,2200,1800
+direction = 0
+center_line_ratio = 0.5
+center_height_ratio = 0.25
+k1 = -0.3645
+k2 = 0.1454
+cx = 273.1
+cy = 306.3
+fx = 415.6
+fy = 554.9
+rod = 0.75126,0.392515,2.67375
+

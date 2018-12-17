@@ -1,0 +1,11 @@
+LIBRARY FaceSdk
+
+EXPORTS
+
+Face_Init @1
+Face_Create @2
+Face_Delete @3
+Face_InitTrajectory @4
+Face_StartTrajectory @5
+Face_StopTrajectory @6
+Face_SetFaceWnd @7

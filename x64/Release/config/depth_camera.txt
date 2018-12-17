@@ -1,0 +1,22 @@
+[CAMERA_LIST]
+names = S1
+#, S2
+
+[CAMERA_S1]
+name = S1
+path = 0
+type = 0
+channel = 0
+size = 320,240
+pos = 440,2700,1800
+direction = 1
+center_line_ratio = 0.5
+center_height_ratio = 0.25
+
+k1 = 0.13
+k2 = -0.2259
+cx = 319.3
+cy = 227.6
+fx = 563.1
+fy = 560
+rot = -0.104153,-0.0647224,-1.57036

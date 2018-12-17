@@ -1,0 +1,21 @@
+[SHELF_LIST]
+names = W1
+#,W2 
+
+[SHELF_W1]
+name = food
+pos = 0,2230,440,900
+direction = 1
+color_camera=122, 117, 118, 124
+depth_camera=S1
+[SHELF_W2]
+name = drink
+pos = 0,1330,440,900
+direction = 1
+color_camera=119, 120, 121, 123
+depth_camera=S1
+[SHELF_N1]
+name = etc
+pos = 2250,0,900,440
+direction = 2
+
